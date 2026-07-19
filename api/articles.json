@@ -1,5 +1,20 @@
 [
   {
+    "title_main": "從零開始打造",
+    "title_gradient": "智慧校園整合系統",
+    "description": "以高中校園為應用場域，結合物聯網、人工智慧、雲端平台與數據分析，從零規劃並建置智慧校園系統，提升校園管理效率與學習品質。",
+    "category": "經驗分享 / 技術推廣",
+    "tags": [
+      "智慧校園",
+      "IoT",
+      "AI",
+      "雲端平台"
+    ],
+    "date": "2026-07-19",
+    "author": "周奕宇 YiYu Chou",
+    "filepath": "list/campus.md"
+  },
+  {
     "title_main": "高中生的創意與實作",
     "title_gradient": "黑客松競賽參與心得與學習歷程",
     "description": "透過高中黑客松競賽，從團隊合作、程式開發到成果發表，培養跨領域整合能力與解決問題的實戰經驗。",
@@ -13,6 +28,21 @@
     "date": "2026-07-19",
     "author": "周奕宇 YiYu Chou",
     "filepath": "list/hack.md"
+  },
+  {
+    "title_main": "萬里溪堰塞湖",
+    "title_gradient": "工程解決方案研究",
+    "description": "探討花蓮萬里溪堰塞湖形成原因、潛在災害風險及各項工程治理方案，並分析不同處置策略的可行性與未來防災建議。",
+    "category": "主題研究 / 水利工程",
+    "tags": [
+      "堰塞湖",
+      "防災工程",
+      "水利工程",
+      "地質災害"
+    ],
+    "date": "2026-07-19",
+    "author": "周奕宇 YiYu Chou",
+    "filepath": "list/wanli-lake-research.md"
   },
   {
     "title_main": "台灣特有種介紹",
