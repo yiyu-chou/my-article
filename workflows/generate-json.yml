@@ -1,0 +1,54 @@
+name: 自動生成文章索引 JSON
+
+on:
+  push:
+    branches:
+      - main # 當 main 分支有 push 時觸發
+    paths:
+      - 'list/**.md' # 只有當 list 資料夾內的 markdown 檔案變更時才觸發，避免無限循環
+  workflow_dispatch: # 支援手動在 GitHub UI 觸發工作流
+
+# 給予工作流寫入專案的權限，以便自動 commit 並 push 生成的 JSON 檔案
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 檢出程式碼
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 完整檢出，確保檔案狀態正確
+
+      # 2. 設定 Python 環境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. 執行 Python 解析腳本
+      - name: Run JSON Generator Script
+        run: python scripts/generate_articles_json.py
+
+      # 4. 偵測 JSON 變更並自動 Commit & Push
+      - name: Commit and Push if JSON changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # 檢查是否有 api/articles.json 變更
+          if [ -f "api/articles.json" ]; then
+            git add api/articles.json
+            if git diff --cached --quiet; then
+              echo "api/articles.json 沒有任何變更，跳過 Commit。"
+            else
+              git commit -m "chore(auto): 自動更新 api/articles.json [skip ci]"
+              git push
+              echo "api/articles.json 變更已自動推回 Repository。"
+            fi
+          else
+            echo "⚠️ 找不到 api/articles.json 檔案。"
+          fi
