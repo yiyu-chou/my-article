@@ -1,24 +1,17 @@
 ---
-title_main: 基於智慧邊緣計算的
-title_gradient: 低延遲環境感測整合系統開發
-description: 探討如何整合 ESP32 單晶片、多感測器反饋迴路，並透過極簡自建 API 實現邊緣數據初篩與雲端零延遲同步。
-category: 自主學習 / 工程專案
+title_main: 台灣特有種介紹
+title_gradient: 多種生物的詳細介紹
+description: 台灣因地形多變、海拔落差大，加上長期與亞洲大陸隔離，孕育出許多世界上僅分布於台灣的特有種。這些物種具有高度的生態價值，也是研究演化、生態及保育的重要對象。
+category: 專題介紹 / 生物環境
 tags: [物聯網, 邊緣計算, ESP32, 卡爾曼濾波]
-date: 2026-07-18
+date: 2026-07-19
 author: 周奕宇 YiYu Chou
----
-
-# 台灣特有種介紹
-
-台灣因地形多變、海拔落差大，加上長期與亞洲大陸隔離，孕育出許多世界上僅分布於台灣的特有種。這些物種具有高度的生態價值，也是研究演化、生態及保育的重要對象。
-
 ---
 
 ## 1. 台灣黑熊（Ursus thibetanus formosanus）
 
 ![台灣黑熊](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Formosan_Black_Bear.JPG/250px-Formosan_Black_Bear.JPG)
 
-**圖片來源：** wikimedia
 
 ### 簡介
 台灣黑熊是台灣唯一原生熊類，也是台灣最具代表性的保育動物之一。胸前具有明顯的白色 V 字形斑紋，因此又被稱為「月熊」。
@@ -38,7 +31,6 @@ author: 周奕宇 YiYu Chou
 
 ![帝雉](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Female_Mikado_Pheasant.jpg/330px-Female_Mikado_Pheasant.jpg)
 
-**圖片來源：** wikimedia
 
 ### 簡介
 帝雉為台灣特有鳥類，也是台灣國寶級野鳥。雄鳥羽色呈深藍黑色，尾羽修長，非常美麗，因此有「迷霧中的王者」之稱。
@@ -54,9 +46,8 @@ author: 周奕宇 YiYu Chou
 
 ## 3. 藍腹鷴（Lophura swinhoii）
 
-![藍腹鷴](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Female_Mikado_Pheasant.jpg/330px-Female_Mikado_Pheasant.jpg)
+![藍腹鷴](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Swinhoe%27s_Pheasant_0673.jpg/250px-Swinhoe%27s_Pheasant_0673.jpg)
 
-**圖片來源：** https://commons.wikimedia.org/wiki/Category:Lophura_swinhoii
 
 ### 簡介
 藍腹鷴是台灣特有雉科鳥類，雄鳥擁有亮麗的藍色羽毛與鮮紅色腳，被譽為「台灣最美麗的野鳥」。
@@ -72,9 +63,8 @@ author: 周奕宇 YiYu Chou
 
 ## 4. 櫻花鉤吻鮭（Oncorhynchus masou formosanus）
 
-![櫻花鉤吻鮭](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Female_Mikado_Pheasant.jpg/330px-Female_Mikado_Pheasant.jpg)
+![櫻花鉤吻鮭](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/%E6%AB%BB%E8%8A%B1%E9%89%A4%E5%90%BB%E9%AE%AD_02.jpg/250px-%E6%AB%BB%E8%8A%B1%E9%89%A4%E5%90%BB%E9%AE%AD_02.jpg)
 
-**圖片來源：** wikimedia
 
 ### 簡介
 櫻花鉤吻鮭是冰河時期遺留下來的珍貴魚類，也是全球分布最南端的鮭魚，被稱為「國寶魚」。
@@ -90,9 +80,8 @@ author: 周奕宇 YiYu Chou
 
 ## 5. 台灣獼猴（Macaca cyclopis）
 
-![台灣獼猴](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Female_Mikado_Pheasant.jpg/330px-Female_Mikado_Pheasant.jpg)
+![台灣獼猴](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Shoushan_National_Nature_Park--Created_by_Nora.jpg/250px-Shoushan_National_Nature_Park--Created_by_Nora.jpg)
 
-**圖片來源：** https://commons.wikimedia.org/wiki/Category:Macaca_cyclopis
 
 ### 簡介
 台灣獼猴是台灣唯一原生靈長類動物，具有高度社會性，生活於森林之中，以水果、嫩葉及昆蟲為食。
