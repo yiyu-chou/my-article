@@ -60,6 +60,21 @@
     "filepath": "list/bio.md"
   },
   {
+    "title_main": "基於工業 4.0 體系之",
+    "title_gradient": "台灣工廠自動化實施案例與轉型路徑探討",
+    "description": "探討台灣製造業在面對少子化與全球供應鏈重組挑戰下，如何透過智慧邊緣計算、物聯網整合及自動化軟硬體架構，達成傳統產線的數位轉型與智動化升級。",
+    "category": "主題研究 / 工業自動化",
+    "tags": [
+      "智慧製造",
+      "工業4.0",
+      "邊緣計算",
+      "台灣製造業"
+    ],
+    "date": "2026-07-19",
+    "author": "陳智遠 Chih-Yuan Chen",
+    "filepath": "list/taiwan_factory_automation_research.md"
+  },
+  {
     "title_main": "基於智慧邊緣計算的",
     "title_gradient": "低延遲環境感測整合系統開發",
     "description": "探討如何整合 ESP32 單晶片、多感測器反饋迴路，並透過極簡自建 API 實現邊緣數據初篩與雲端零延遲同步。",
