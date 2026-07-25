@@ -1,20 +1,5 @@
 [
   {
-    "title_main": "測試",
-    "title_gradient": "測試YT連結",
-    "description": "測試YT連結測試YT連結測試YT連結測試YT連結測試YT連結測試YT連結測試YT連結測試YT連結測試YT連結。",
-    "category": "主題研究 / 測試功能",
-    "tags": [
-      "Youtube",
-      "邊緣計算",
-      "ESP32",
-      "測試"
-    ],
-    "date": "2026-07-25",
-    "author": "周奕宇 YiYu Chou",
-    "filepath": "list/test.md"
-  },
-  {
     "title_main": "萬里溪堰塞湖",
     "title_gradient": "工程解決方案研究",
     "description": "探討花蓮萬里溪堰塞湖形成原因、潛在災害風險及各項工程治理方案，並分析不同處置策略的可行性與未來防災建議。",
