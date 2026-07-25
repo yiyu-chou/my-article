@@ -9,6 +9,7 @@ author: 周奕宇 YiYu Chou
 ---
 
 ## 1. 測試
-
+A
 [觀看 ESP32 低功耗模式實測影片](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+B
 [video:專案成果示範影片](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
