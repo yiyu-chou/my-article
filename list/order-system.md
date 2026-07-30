@@ -193,5 +193,4 @@ JavaScript 是一個弱型態語言，所以我們開發時常發生形態上的
 ![圖十二：後台管理者介面](https://yiyu-chou.github.io/my-article/files/order-system/image012.png)
 
 ### (三) GitHub
-歡迎查看我們的
-[GitHub](https://github.com/zl-order-system)
+歡迎查看我們的[GitHub](https://github.com/zl-order-system)
