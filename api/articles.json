@@ -1,5 +1,21 @@
 [
   {
+    "title_main": "班級訂餐管理系統開發",
+    "title_gradient": "學習成果報告",
+    "description": "宮中時自主學習成果報告。題目為「班級訂餐管理系統開發」，兩位同學一起合作開發班級訂餐系統，簡化及加速訂餐流程。互相合作與討論，共同學習。",
+    "category": "自主學習 / 成果報告",
+    "tags": [
+      "React",
+      "tailwindcss",
+      "Python",
+      "爬蟲",
+      "GitHub Pages"
+    ],
+    "date": "2026-07-30",
+    "author": "周奕宇 YiYu Chou",
+    "filepath": "list/order-system.md"
+  },
+  {
     "title_main": "萬里溪堰塞湖",
     "title_gradient": "工程解決方案研究",
     "description": "探討花蓮萬里溪堰塞湖形成原因、潛在災害風險及各項工程治理方案，並分析不同處置策略的可行性與未來防災建議。",
@@ -88,21 +104,5 @@
     "date": "2026-07-18",
     "author": "周奕宇 YiYu Chou",
     "filepath": "list/article-example.md"
-  },
-  {
-    "title_main": "班級訂餐管理系統開發",
-    "title_gradient": "高一自主學習成果報告",
-    "description": "高一自主學習成果報告。題目為「班級訂餐管理系統開發」，兩位同學一起合作開發班級訂餐系統，簡化及加速訂餐流程。互相合作與討論，共同學習。",
-    "category": "自主學習 / 成果報告",
-    "tags": [
-      "React",
-      "tailwindcss",
-      "Python",
-      "爬蟲",
-      "GitHub Pages"
-    ],
-    "date": "2024-05-31",
-    "author": "周奕宇 YiYu Chou",
-    "filepath": "list/order-system.md"
   }
 ]
