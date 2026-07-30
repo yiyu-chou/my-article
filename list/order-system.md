@@ -1,16 +1,16 @@
 ---
 title_main: "班級訂餐管理系統開發"
-title_gradient: "高一自主學習成果報告"
-description: "高一自主學習成果報告。題目為「班級訂餐管理系統開發」，兩位同學一起合作開發班級訂餐系統，簡化及加速訂餐流程。互相合作與討論，共同學習。"
+title_gradient: "學習成果報告"
+description: "宮中時自主學習成果報告。題目為「班級訂餐管理系統開發」，兩位同學一起合作開發班級訂餐系統，簡化及加速訂餐流程。互相合作與討論，共同學習。"
 category: "自主學習 / 成果報告"
 tags: [React, tailwindcss, Python, 爬蟲, GitHub Pages]
-date: 2024-05-31
+date: 2026-07-30
 author: "周奕宇 YiYu Chou"
 ---
 
 ## 一、簡述
 
-此為高一自主學習成果報告書。題目為「班級訂餐管理系統開發」，兩位同學一起合作開發班級訂餐系統，簡化及加速訂餐流程。互相合作與討論，共同學習。
+此為高一自主學習成果介紹文章。題目為「班級訂餐管理系統開發」，兩位同學一起合作開發班級訂餐系統，簡化及加速訂餐流程。互相合作與討論，共同學習。
 
 ---
 
@@ -193,6 +193,5 @@ JavaScript 是一個弱型態語言，所以我們開發時常發生形態上的
 ![圖十二：後台管理者介面](https://yiyu-chou.github.io/my-article/files/order-system/image012.png)
 
 ### (三) GitHub
-[https://github.com/zl-order-system](https://github.com/zl-order-system)
-
----
+歡迎查看我們的
+[GitHub](https://github.com/zl-order-system)
